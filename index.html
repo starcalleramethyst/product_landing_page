@@ -3,23 +3,78 @@
     <!-- script for importing the fcc java test-->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link src="/main.css>" rel="stylesheet" type="text/css">
+    <title>Magic Pipes</title>
 </head>
 
+
 <body>
-    <header id="header">
-        <img id="header-img" src="/lax-logo.jpeg">
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#mission">Mission Statement</a></li>
-                <li><a class="nav-link" href="#mechanism">Mechanism of Action</a></li>
-                <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="page-wrapper">
+        <header id="header">
 
-    <section id="mission"></section>
-    <section id="mechanism"></section>
-    <section id="pricing"></section>
+            <div class="logo">
+                <img id="header-img" src="/lax-logo.jpeg">
+            </div> <!--logo-->
 
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#mission">Mission Statement</a></li>
+                    <li><a class="nav-link" href="#howTo">How-To & What to Expect</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <div id="heading">
+            <h1>Magic Pipes</h1>
+            <form id="email" action="https://www.freecodecamp.com/email-submit">
+                <input id="email-text" type="email" placeholder="Subscribe for Shitty News">
+                <input id="submit" type="submit">
+            </form>
+        </div>
+
+        <section id="mission">
+            <p id="mission">Saline laxatives are non-absorbable osmotically active substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.[3] Saline laxatives may alter a patient's fluid and electrolyte balance.</p>
+        </section>
+
+        <section id="howTo">
+            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CWiNltkljOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="pricing">
+            <div class="product" id="mild">
+                <div class="level">Mild Stregth</div>
+                <h2>$6.66</h2>
+                <ol>
+                    <li>yes.</li>
+                    <li>pooping is good.</li>
+                    <li>could use a bit of help.</li>
+                </ol>
+                <button class="btn">YAS</button>
+            </div>
+            <div class="product" id="medium">
+                <div class="level">Medium Strength</div>
+                <h2>$66.66</h2>
+                <ol>
+                    <li>Please.</li>
+                    <li>I need more regularity.</li>
+                    <li>Calling in the plumber.</li>
+                </ol>
+                <button class="btn">YAS</button>
+            </div>
+            <div class="product" id="max">
+                <div class="level">Maximum Strength</div>
+                <h2>$666.666</h2>
+                <ol>
+                    <li>SEND EVERYONE!</li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                <button class="btn">YAS</button>
+            </div>
+        </section>
+
+    </div> <!--page wrapper-->
 </body>
+
 
