@@ -12,7 +12,7 @@
         <header id="header">
 
             <div class="logo">
-                <img id="header-img" src="/lax-logo.jpeg">
+                <img id="header-img" src="/lax-logo.jpeg" alt="bottle of laxative. Miracle Pipes logo.">
             </div> <!--logo-->
 
             <nav id="nav-bar">
@@ -25,55 +25,70 @@
 
         </header>
 
-        <div id="heading">
-            <h1>Magic Pipes</h1>
+        <div class="container"></div>
+
+        <!--this section displays the main heading at the top of the page and has a field for email input to subscribe to the newsletter.-->
+        <section id="hero"> 
+            <h2>Magic Pipes</h2>
             <form id="email" action="https://www.freecodecamp.com/email-submit">
-                <input id="email-text" type="email" placeholder="Subscribe for Shitty News">
-                <input id="submit" type="submit">
+                <input name="email" id="email-text" type="email" placeholder="Subscribe for Shitty News" required>
+                <input id="submit" class="btn" type="submit" value="Let's Poo!">
             </form>
-        </div>
-
-        <section id="mission">
-            <p id="mission">Saline laxatives are non-absorbable osmotically active substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.[3] Saline laxatives may alter a patient's fluid and electrolyte balance.</p>
         </section>
 
-        <section id="howTo">
-            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CWiNltkljOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
+        <div class="container"> <!--this container encapsulates everything else on the page, down to the footer.-->
+           
+            <section id="mission">
+                <p id="mission-words">Saline laxatives are non-absorbable osmotically active substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.[3] Saline laxatives may alter a patient's fluid and electrolyte balance.</p>
+            </section>
 
-        <section id="pricing">
-            <div class="product" id="mild">
-                <div class="level">Mild Stregth</div>
-                <h2>$6.66</h2>
-                <ol>
-                    <li>yes.</li>
-                    <li>pooping is good.</li>
-                    <li>could use a bit of help.</li>
-                </ol>
-                <button class="btn">YAS</button>
-            </div>
-            <div class="product" id="medium">
-                <div class="level">Medium Strength</div>
-                <h2>$66.66</h2>
-                <ol>
-                    <li>Please.</li>
-                    <li>I need more regularity.</li>
-                    <li>Calling in the plumber.</li>
-                </ol>
-                <button class="btn">YAS</button>
-            </div>
-            <div class="product" id="max">
-                <div class="level">Maximum Strength</div>
-                <h2>$666.666</h2>
-                <ol>
-                    <li>SEND EVERYONE!</li>
-                    <li></li>
-                    <li></li>
-                </ol>
-                <button class="btn">YAS</button>
-            </div>
-        </section>
+            <section id="howTo">
+                <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CWiNltkljOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
 
+            <section id="pricing">
+                <div class="product" id="mild">
+                    <div class="level">Mild Stregth</div>
+                    <h2>$6.66</h2>
+                    <ol>
+                        <li>yes.</li>
+                        <li>pooping is good.</li>
+                        <li>could use a bit of help.</li>
+                    </ol>
+                    <button class="btn">YAS</button>
+                </div>
+                <div class="product" id="medium">
+                    <div class="level">Medium Strength</div>
+                    <h2>$66.66</h2>
+                    <ol>
+                        <li>Please.</li>
+                        <li>I need more regularity.</li>
+                        <li>Calling in the plumber.</li>
+                    </ol>
+                    <button class="btn">YAS</button>
+                </div>
+                <div class="product" id="max">
+                    <div class="level">Maximum Strength</div>
+                    <h2>$666.666</h2>
+                    <ol>
+                        <li>SEND EVERYONE!</li>
+                        <li>I am full of unlubricated bricks.</li>
+                        <li>What a crappy last resort.</li>
+                    </ol>
+                    <button class="btn">YAS</button>
+                </div>
+            </section>
+
+            <footer>
+                <ul>
+                    <li><a href="#">Poop History</a></li>
+                    <li><a href="#">Poop Science</a></li>
+                    <li><a href="#">Super Poop</a></li>
+                </ul>
+                <span>Copyright Bob Sagget Needs to Poop 2020</span>
+            </footer>
+
+        </div> <!--main body content wrap container-->
     </div> <!--page wrapper-->
 </body>
 
